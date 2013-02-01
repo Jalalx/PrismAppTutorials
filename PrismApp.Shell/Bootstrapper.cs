@@ -3,12 +3,13 @@ using System.Windows;
 using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.UnityExtensions;
 using Microsoft.Practices.Unity;
+using Microsoft.Practices.Prism.Logging;
 
 namespace PrismApp.Shell
 {
     public class Bootstrapper : UnityBootstrapper
     {
-        protected override Microsoft.Practices.Prism.Logging.ILoggerFacade CreateLogger()
+        protected override ILoggerFacade CreateLogger()
         {
             return new TextFileLogger();
         }

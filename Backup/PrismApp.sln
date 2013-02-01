@@ -1,9 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApp.Shell", "PrismApp.Shell\PrismApp.Shell.csproj", "{1C3C703A-E830-483E-A1BC-F5CAD93FBBAA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApp.Modules.MyFirstModule", "PrismApp.Modules.MyFirstModule\PrismApp.Modules.MyFirstModule.csproj", "{BE1AAD4B-EEFC-4A9C-98BC-F5C9770A2A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		{1C3C703A-E830-483E-A1BC-F5CAD93FBBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C3C703A-E830-483E-A1BC-F5CAD93FBBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C3C703A-E830-483E-A1BC-F5CAD93FBBAA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BE1AAD4B-EEFC-4A9C-98BC-F5C9770A2A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BE1AAD4B-EEFC-4A9C-98BC-F5C9770A2A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BE1AAD4B-EEFC-4A9C-98BC-F5C9770A2A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BE1AAD4B-EEFC-4A9C-98BC-F5C9770A2A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
